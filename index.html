@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Élan Royale | Classical Collection</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+
+        <div class="logo">
+            ÉLAN <span>ROYALE</span>
+        </div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#collection">Collection</a>
+            <a href="#heritage">Heritage</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+            <button id="themeBtn">☾</button>
+            <button id="favoriteBtn">♡</button>
+        </div>
+
+    </header>
+
+
+    <!-- HERO -->
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+                <p class="eyebrow">
+                    ✦ THE HOUSE OF TIMELESS BEAUTY ✦
+                </p>
+
+                <h1>
+                    A Symphony of
+                    <span>Classical Elegance</span>
+                </h1>
+
+                <div class="gold-line">
+                    <span>◆</span>
+                </div>
+
+                <p class="hero-description">
+                    Step into a world inspired by royal halls,
+                    Renaissance artistry, velvet interiors and
+                    timeless craftsmanship.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <button
+                        class="btn primary"
+                        id="exploreBtn">
+                        Explore Collection
+                    </button>
+
+                    <button
+                        class="btn outline"
+                        id="heritageBtn">
+                        Our Heritage
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="hero-emblem">
+                ♛
+            </div>
+
+        </section>
+
+
+        <!-- COLLECTION -->
+        <section class="collection" id="collection">
+
+            <div class="section-heading">
+
+                <p>THE ROYAL COLLECTION</p>
+
+                <h2>
+                    Crafted for
+                    <em>Timeless Souls</em>
+                </h2>
+
+            </div>
+
+
+            <!-- FILTERS -->
+
+            <div class="filters">
+
+                <input
+                    type="text"
+                    id="search"
+                    placeholder="Search collection..."
+                >
+
+                <button id="allBtn">
+                    All
+                </button>
+
+                <button id="favoritesBtn">
+                    Favorites
+                </button>
+
+            </div>
+
+
+            <!-- CARDS -->
+
+            <div class="cards">
+
+                <!-- CARD 1 -->
+                <article
+                    class="card emerald"
+                    data-name="Emerald Palace"
+                >
+
+                    <div class="card-art">
+                        ♛
+                    </div>
+
+                    <span class="number">
+                        I
+                    </span>
+
+                    <h3>
+                        Emerald Palace
+                    </h3>
+
+                    <p>
+                        Inspired by majestic royal halls
+                        and emerald velvet interiors.
+                    </p>
+
+                    <div class="card-footer">
+
+                        <button class="details">
+                            Discover
+                        </button>
+
+                        <button class="heart">
+                            ♡
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- CARD 2 -->
+                <article
+                    class="card burgundy"
+                    data-name="Burgundy Rose"
+                >
+
+                    <div class="card-art">
+                        ❦
+                    </div>
+
+                    <span class="number">
+                        II
+                    </span>
+
+                    <h3>
+                        Burgundy Rose
+                    </h3>
+
+                    <p>
+                        A romantic composition inspired
+                        by vintage European salons.
+                    </p>
+
+                    <div class="card-footer">
+
+                        <button class="details">
+                            Discover
+                        </button>
+
+                        <button class="heart">
+                            ♡
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- CARD 3 -->
+                <article
+                    class="card navy"
+                    data-name="Royal Midnight"
+                >
+
+                    <div class="card-art">
+                        ✦
+                    </div>
+
+                    <span class="number">
+                        III
+                    </span>
+
+                    <h3>
+                        Royal Midnight
+                    </h3>
+
+                    <p>
+                        Deep navy tones inspired by
+                        moonlit palace architecture.
+                    </p>
+
+                    <div class="card-footer">
+
+                        <button class="details">
+                            Discover
+                        </button>
+
+                        <button class="heart">
+                            ♡
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- CARD 4 -->
+                <article
+                    class="card plum"
+                    data-name="Velvet Romance"
+                >
+
+                    <div class="card-art">
+                        ♡
+                    </div>
+
+                    <span class="number">
+                        IV
+                    </span>
+
+                    <h3>
+                        Velvet Romance
+                    </h3>
+
+                    <p>
+                        Soft plum shades inspired by
+                        classical romantic interiors.
+                    </p>
+
+                    <div class="card-footer">
+
+                        <button class="details">
+                            Discover
+                        </button>
+
+                        <button class="heart">
+                            ♡
+                        </button>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+            <p
+                class="collection-count"
+                id="count">
+                4 pieces in the collection
+            </p>
+
+        </section>
+
+
+        <!-- HERITAGE -->
+        <section
+            class="heritage"
+            id="heritage">
+
+            <div class="heritage-decoration">
+                ❧
+            </div>
+
+            <p>
+                OUR HERITAGE
+            </p>
+
+            <h2>
+                Beauty has no
+                <em>expiration.</em>
+            </h2>
+
+            <p class="heritage-text">
+                Inspired by Renaissance architecture,
+                royal libraries, European gardens and
+                handcrafted details, our philosophy is
+                simple — create things that remain beautiful
+                long after trends disappear.
+            </p>
+
+            <div class="heritage-stats">
+
+                <div>
+                    <strong>100+</strong>
+                    <span>Designs</span>
+                </div>
+
+                <div>
+                    <strong>1924</strong>
+                    <span>Inspired Era</span>
+                </div>
+
+                <div>
+                    <strong>∞</strong>
+                    <span>Timeless</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT -->
+        <section
+            class="contact"
+            id="contact">
+
+            <p>
+                BEGIN YOUR JOURNEY
+            </p>
+
+            <h2>
+                Welcome to
+                <em>Élan Royale</em>
+            </h2>
+
+            <button
+                class="btn primary"
+                id="contactBtn">
+                Enter the House
+            </button>
+
+        </section>
+
+    </main>
+
+
+    <!-- MODAL -->
+
+    <div
+        class="modal"
+        id="modal">
+
+        <div class="modal-box">
+
+            <button
+                class="close"
+                id="closeModal">
+                ×
+            </button>
+
+            <div
+                class="modal-symbol"
+                id="modalSymbol">
+                ✦
+            </div>
+
+            <h2 id="modalTitle">
+                Collection
+            </h2>
+
+            <p id="modalText">
+                Discover the story behind this
+                classical creation.
+            </p>
+
+            <button
+                class="btn primary"
+                id="modalBtn">
+                Add to Favorites
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- TOAST -->
+
+    <div
+        class="toast"
+        id="toast">
+        Added to favorites
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
